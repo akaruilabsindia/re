@@ -438,8 +438,8 @@ a:visited{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vw;
-    transform: translateY(-25vw);
+    height: 100vh;
+    transform: translateY(0vw);
     background: #fff;
     z-index: 10;
     transition: all 0.3s ease;
@@ -551,8 +551,12 @@ a:visited{
     .showcase-image-one{
         width: 36rem;
     }
+   
 }
 @media screen and (max-width: 480px) {
+     .loader-container{
+        height: 130vh;
+    }
     .mobile-center{
         text-align: center !important;
     }
@@ -596,7 +600,7 @@ a:visited{
         margin: 1rem;
         background: #ae0f0a;
         border-radius: 50%;
-        z-index: 2;
+        z-index: 5;
         right: 0;
         bottom: 1rem;
     }
